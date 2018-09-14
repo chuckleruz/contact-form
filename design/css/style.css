@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto|Allura);
+*{
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight:400;
+	color: #000;
+	font-size: 15px;
+}
+ /*
+  When creating your CSS selector,
+  change "brown" to something of your choosing
+  */
+
+.block.form{
+	padding: 50px;
+}
+.block.form .holder{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.block.form .content.cimgs{
+	max-width: 700px;
+	margin: 0 auto;
+}
+.block.form .content.ctext{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.block.form .content .text h1{
+	font-size: 21px;
+}
+.block.form .content .text{
+	margin-top: 70px;
+	text-align: center;
+}
+img{
+	width: 100%;
+}
+
+.block.form .col-md-12{
+	margin-bottom: 15px;
+}
+
+.contact-form input[type=submit]{
+	width: 100%;
+}
+
+.contact-form .invalid-message{
+	color: red;
+}
+
+@media(max-width: 767px){
+
+	.block.form .content{
+		max-width: 250px;
+		margin: 0 auto;
+	}
+}
